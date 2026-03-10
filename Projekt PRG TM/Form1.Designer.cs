@@ -34,8 +34,10 @@
             // Nadpis
             // 
             Nadpis.AutoSize = true;
+            Nadpis.BackColor = Color.Transparent;
             Nadpis.Font = new Font("Segoe UI", 50.25F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            Nadpis.Location = new Point(245, 9);
+            Nadpis.ForeColor = SystemColors.Control;
+            Nadpis.Location = new Point(225, 9);
             Nadpis.Name = "Nadpis";
             Nadpis.Size = new Size(328, 89);
             Nadpis.TabIndex = 0;
@@ -46,6 +48,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Black;
             ClientSize = new Size(800, 450);
             Controls.Add(Nadpis);
             Name = "Form1";
