@@ -16,5 +16,10 @@ namespace Projekt_PRG_TM
         {
 
         }
+
+        private void Nadpis_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -28,24 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
+            Nadpis = new Label();
             SuspendLayout();
             // 
-            // label1
+            // Nadpis
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(302, 53);
-            label1.Name = "label1";
-            label1.Size = new Size(38, 15);
-            label1.TabIndex = 0;
-            label1.Text = "label1";
+            Nadpis.AutoSize = true;
+            Nadpis.Font = new Font("Segoe UI", 50.25F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            Nadpis.Location = new Point(245, 9);
+            Nadpis.Name = "Nadpis";
+            Nadpis.Size = new Size(328, 89);
+            Nadpis.TabIndex = 0;
+            Nadpis.Text = "ŠIBENICE";
+            Nadpis.Click += Nadpis_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(label1);
+            Controls.Add(Nadpis);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
@@ -56,6 +58,6 @@
 
         #endregion
 
-        private Label label1;
+        private Label Nadpis;
     }
 }
