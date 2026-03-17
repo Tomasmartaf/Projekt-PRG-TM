@@ -31,11 +31,11 @@ namespace Projekt_PRG_TM
         {
             herniOkno herniForm = new herniOkno();
 
-            herniForm.Show();
-
             this.Hide();
 
-            herniForm.FormClosed += (s, args) => this.Show();
+            herniForm.ShowDialog();
+
+            this.Show();
         }
     }
 }
